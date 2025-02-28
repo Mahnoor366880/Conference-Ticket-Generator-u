@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Conf 2025 - Ticket</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @font-face {
+      font-family: 'Inconsolata';
+      src: url('./images/Inconsolata-VariableFont_wdth,wght.ttf') format('truetype');
+    }
+    body {
+      font-family: 'Inconsolata', monospace;
+      background: url('./images/background-desktop.png') no-repeat center center;
+      background-size: cover;
+    }
+    .ticket-divider {
+      border-left: 2px dashed rgba(255, 255, 255, 0.3);
+      height: 100%;
+    }
+    .vertical-text {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      letter-spacing: 2px;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen text-white px-6 relative">
+  
+  <div class="max-w-lg w-full text-center">
+    <img src="./images/logo-full.svg" alt="Coding Conf Logo" class="mx-auto mb-4">
+    <h1 class="text-3xl md:text-4xl font-bold">
+      Congrats, <span class="text-red-400">Jonatan Kristof!</span><br>Your ticket is ready.
+    </h1>
+    <p class="text-sm text-gray-400 mt-2">
+      We've emailed your ticket to <span class="text-red-400">jonatan@email.com</span> and will send updates in the run-up to the event.
+    </p>
+    
+    <div class="relative mt-6">
+      <!-- Ticket Background -->
+      <img src="./images/pattern-ticket.svg" alt="Ticket Background" class="w-full">
+      
+      <!-- Content Inside Ticket -->
+      <div class="absolute inset-0 flex items-center justify-between px-6 py-4">
+        
+        <!-- Left Side (Logo, Date, Avatar, Username) -->
+        <div class="flex flex-col space-y-2">
+          <img src="./images/logo-full.svg" alt="Coding Conf Logo" class="mb-2 w-18 h-15">
+          <p class="text-gray-400 text-sm">Jan 31, 2025 / Austin, TX</p>
+
+          <div class="flex items-center space-x-3">
+            <img src="./images/image-avatar.jpg" alt="User Avatar" class="w-12 h-12 rounded-full">
+            <div class="text-left">
+              <p class="font-semibold">Jonatan Kristof</p>
+              <div class="flex items-center space-x-2">
+                <img src="./images/icon-github.svg" alt="GitHub Icon" class="w-5 h-5">
+                <p class="text-sm text-gray-400">@jonatankristof0101</p>
+              </div>
+            </div>
+            
+              
+          </div>
+        </div>
+
+      
+
+
+        <p class="vertical-text">#010699</p>
+
+      </div>
+    </div>
+
+    <img src="./images/pattern-circle.svg" class="absolute top-5 left-3 w-28 opacity-50">
+    <img src="./images/pattern-lines.svg" class="absolute bottom-20 right-5 w-32 opacity-50">
+    <img src="./images/pattern-squiggly-line-top.svg" class="absolute top-0 right-5 transform -translate-x-1/2 w-52 opacity-30">
+    <img src="./images/pattern-squiggly-line-bottom-desktop.svg" class="absolute bottom-0 left-0 w-99 opacity-40">
+
+</body>
+</html>
